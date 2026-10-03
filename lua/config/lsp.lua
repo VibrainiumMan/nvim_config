@@ -1,7 +1,7 @@
 local servers = {
     clangd = {
 	cmd = { "clangd" },
-	filetypes = { "c", "cpp", "objc", "objcpp" },
+	filetypes = { "c", "cpp" },
 	root_markers = { "compile_commands.json", "compile_flags.txt", ".git" }
     },
 
